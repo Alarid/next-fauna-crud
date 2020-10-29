@@ -2,7 +2,7 @@ import useSwr from 'swr';
 import Link from 'next/link';
 import Layout from '../components/layout';
 import DataRow from '../components/data-row';
-import styles from '../styles/home.module.css';
+import styles from '../styles/home-page.module.css';
 
 const fetcher = (url) => fetch(url).then((r) => r.json());
 
